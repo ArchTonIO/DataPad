@@ -1,0 +1,10 @@
+
+The dataPad is a USB device, it uses a Raspberry pi Pico microcontroller,
+a 1 inch 128x64 oled screen, an analog joystick, 21 buttons corresponding
+to 21 addressable RGB leds for feedback. It can be used to control any
+kind of software.
+In this case I use it to easily work with Rhino3D for 3D modeling,
+the "driver" (serial communication between the device and the PC) is 
+created using Python3 and can be found in the Driver directory.
+The .stl files for 3D printing will  be added soon with the schematic
+to an hardware-dedicated directory.    
